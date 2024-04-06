@@ -1,12 +1,12 @@
 Package: Rapi
 Type: Package
 Title: Interface for Multiple Data Providers 'EDDS' and 'FRED'
-Version: 1.0.4
-Date: 2024-02-19
+Version: 1.0.5
+Date: 2024-04-06
 Authors@R: c(
-    person("Sermet", "Pekin", , "sermetpekin@gmail.com", role = c("aut", "cre" , "cph"))
+    person("Sermet", "Pekin", , "sermet.pekin@gmail.com", role = c("aut", "cre" , "cph"))
   )
-Maintainer: Sermet Pekin <sermetpekin@gmail.com>
+Maintainer: Sermet Pekin <sermet.pekin@gmail.com>
 URL: https://github.com/DataRapi/Rapi, https://DataRapi.github.io/Rapi/
 BugReports: https://github.com/DataRapi/Rapi/issues
 Description: Interface for multiple data sources, such as the 
@@ -31,7 +31,7 @@ RoxygenNote: 7.3.1
 Encoding: UTF-8
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2024-02-23 04:32:22 UTC; sermetpekin
+Packaged: 2024-04-06 16:15:56 UTC; sermetpekin
 Author: Sermet Pekin [aut, cre, cph]
 Repository: CRAN
-Date/Publication: 2024-02-26 16:20:09 UTC
+Date/Publication: 2024-04-06 23:43:04 UTC
