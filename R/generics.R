@@ -55,7 +55,6 @@ combine_df <- function(x, ...) {
   df
 }
 combine_dfs_by_date2 <- function(liste) {
-
   combined <- NULL
   for (item in liste) {
     item2 <- item

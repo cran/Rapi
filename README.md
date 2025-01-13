@@ -1,11 +1,8 @@
 
 ## Rapi
-[![R-CMD-check](https://github.com/DataRapi/Rapi/actions/workflows/R_CMD_check.yml/badge.svg)](https://github.com/DataRapi/Rapi/actions/workflows/R_CMD_check.yml)
+## [![CRAN_Status_Badge](https://img.shields.io/cran/v/Rapi?color=952100)](https://cran.r-project.org/package=Rapi) [![R-CMD-check](https://github.com/DataRapi/Rapi/actions/workflows/R_CMD_check.yml/badge.svg)](https://github.com/DataRapi/Rapi/actions/workflows/R_CMD_check.yml)
+ 
 
-Rapi download stats
----------
-
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Rapi?color=green)](https://cran.r-project.org/package=Rapi)
 [![DOI](https://zenodo.org/badge/761353779.svg)](https://zenodo.org/doi/10.5281/zenodo.10800216)
 
 ![](https://cranlogs.r-pkg.org/badges/grand-total/Rapi?color=green)
@@ -15,7 +12,7 @@ Rapi download stats
 ## Overview
 
 Rapi package is an interface to make requests from data providers. 
-Current version is able to connect to APIs of [EDDS](https://evds2.tcmb.gov.tr/index.php?/evds/userDocs/) of CBRT (Central Bank of the Republic of Türkiye)
+Current version is able to connect to APIs of [`EDDS`](https://evds2.tcmb.gov.tr/index.php?/evds/userDocs/) of CBRT (Central Bank of the Republic of Türkiye)
 and [FRED API](https://fred.stlouisfed.org/docs/api/fred/) of FED (Federal Reserve Bank). 
 
 ## Installation
@@ -44,7 +41,7 @@ install_github("DataRapi/Rapi")
 
 
 ``` r
-# Set API keys for EDDS
+# Set API keys for `EDDS`
 set_api_key("YOUR_EDDS_API_KEY", "evds", "env")
 # Set API keys for FRED
 set_api_key("YOUR_FRED_API_KEY", "fred", "env")
@@ -468,12 +465,12 @@ excel(obj, "file_name.xlsx", "somefolder")
 ```
 ## Getting API Keys
 
-To access data from EDDS (CBRT) and FRED (FED), users need to obtain API keys by creating accounts on their respective websites.
+To access data from `EDDS` (CBRT) and FRED (FED), users need to obtain API keys by creating accounts on their respective websites.
 
-### EDDS (CBRT) API Key
+### `EDDS` (CBRT) API Key
 
-1. Visit the [EDDS (CBRT) API Documentation](https://evds2.tcmb.gov.tr/index.php?/evds/userDocs).
-2. Create an account on the EDDS website if you don't have one.
+1. Visit the [`EDDS` (CBRT) API Documentation](https://evds2.tcmb.gov.tr/index.php?/evds/userDocs).
+2. Create an account on the `EDDS` website if you don't have one.
 3. Follow the documentation to generate your API key.
 
 ### FRED (FED) API Key
